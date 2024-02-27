@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-02-17T14:25:57.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="fGdTkL-Ah7PNzCyGyvML" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="ujHkJgA4ik4YnkOz_l-z">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bvX2-evmWl64-TKkNtSw-1" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Провести ЕГЭ&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="370" width="286" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="445" as="sourcePoint" />
+            <mxPoint x="320" y="444.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-4" value="Задания" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-7" value="Участники экзамена" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="480.5" as="sourcePoint" />
+            <mxPoint x="320" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="600" as="sourcePoint" />
+            <mxPoint x="380" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-12" value="Оборудование&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-14" value="Организаторы" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="610" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-16" value="Протокол проведения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.699;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="519.504" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-18" value="Комиссия&lt;br&gt;ГЭК" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="606" y="400" as="sourcePoint" />
+            <mxPoint x="686" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-21" value="Абитуриенты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="480" as="sourcePoint" />
+            <mxPoint x="680" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvX2-evmWl64-TKkNtSw-23" value="Процент нездавших" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

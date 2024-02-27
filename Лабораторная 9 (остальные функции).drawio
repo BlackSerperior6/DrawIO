@@ -1,0 +1,184 @@
+<mxfile host="Electron" modified="2024-02-18T12:05:22.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="NNpqdG-pgViiEB6Vp0JJ" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="_u4KA7H_r1ETEggSOhbb">
+    <mxGraphModel dx="2022" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LELalIif-A3BBpKoqERd-1" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.71" y="30" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="120" as="sourcePoint" />
+            <mxPoint x="560" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-4" value="&lt;div&gt;#include &amp;lt;iostream&amp;gt;&lt;/div&gt;&lt;div&gt;#include &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div&gt;#include &amp;lt;fstream&amp;gt;&lt;/div&gt;&lt;div&gt;using namespace std;&lt;/div&gt;&lt;div&gt;char vowels[] = {&#39;а&#39;, &#39;А&#39;, &#39;е&#39;, &#39;Е&#39;, &#39;ё&#39;, &#39;Ё&#39;, &#39;э&#39;, &#39;Э&#39;, &#39;у&#39;, &#39;У&#39;, &#39;о&#39;, &#39;О&#39;, &#39;ы&#39;, &#39;и&#39;, &#39;И&#39;, &#39;ю&#39;, &#39;Ю&#39;, &#39;я&#39;, &#39;Я&#39;, &#39;a&#39;, &#39;A&#39;, &#39;o&#39;, &#39;O&#39;, &#39;e&#39;, &#39;E&#39;, &#39;i&#39;, &#39;I&#39;, &#39;u&#39;, &#39;U&#39;, &#39;y&#39;, &#39;Y&#39;};&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool CheckForReapets(string *Arr, string element, int index, int size)&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;bool flag = false;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;int counter = index + 1;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LELalIif-A3BBpKoqERd-5" target="LELalIif-A3BBpKoqERd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-5" value="while (counter &amp;lt; size &amp;amp;&amp;amp; !flag)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LELalIif-A3BBpKoqERd-7" target="LELalIif-A3BBpKoqERd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-7" value="flag = element == Arr[counter];" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-9" value="counter++;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="sourcePoint" />
+            <mxPoint x="439.71" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-15" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-16" value="}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-17" value="}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="320" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-21" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="320" as="sourcePoint" />
+            <mxPoint x="600" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-23" value="return flag;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-24" value="}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-25" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-10.57" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150.29000000000002" y="19.43" as="sourcePoint" />
+            <mxPoint x="-150" y="269.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="109.43" as="sourcePoint" />
+            <mxPoint x="-30" y="109.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-28" value="&lt;div&gt;#include &amp;lt;iostream&amp;gt;&lt;/div&gt;&lt;div&gt;#include &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div&gt;#include &amp;lt;fstream&amp;gt;&lt;/div&gt;&lt;div&gt;using namespace std;&lt;/div&gt;&lt;div&gt;char vowels[] = {&#39;а&#39;, &#39;А&#39;, &#39;е&#39;, &#39;Е&#39;, &#39;ё&#39;, &#39;Ё&#39;, &#39;э&#39;, &#39;Э&#39;, &#39;у&#39;, &#39;У&#39;, &#39;о&#39;, &#39;О&#39;, &#39;ы&#39;, &#39;и&#39;, &#39;И&#39;, &#39;ю&#39;, &#39;Ю&#39;, &#39;я&#39;, &#39;Я&#39;, &#39;a&#39;, &#39;A&#39;, &#39;o&#39;, &#39;O&#39;, &#39;e&#39;, &#39;E&#39;, &#39;i&#39;, &#39;I&#39;, &#39;u&#39;, &#39;U&#39;, &#39;y&#39;, &#39;Y&#39;};&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool IsVowel(char symbol)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;bool flag = false;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;int counter = 0;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LELalIif-A3BBpKoqERd-30" target="LELalIif-A3BBpKoqERd-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-30" value="while (counter &amp;lt; 31 &amp;amp;&amp;amp; !flag)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="269.43" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LELalIif-A3BBpKoqERd-32" target="LELalIif-A3BBpKoqERd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-32" value="flag = symbol == vowels[counter];" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="379.43" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-33" value="counter++;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="439.43" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="509.43" as="sourcePoint" />
+            <mxPoint x="-150.29000000000002" y="459.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="509.43" as="sourcePoint" />
+            <mxPoint x="-150" y="509.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="509.43" as="sourcePoint" />
+            <mxPoint x="-310" y="259.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="259.43" as="sourcePoint" />
+            <mxPoint x="-150" y="259.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-38" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="349.43" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-39" value="}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="349.43" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-40" value="}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="469.43" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="309.43" as="sourcePoint" />
+            <mxPoint x="10" y="309.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-42" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="279.43" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="309.43" as="sourcePoint" />
+            <mxPoint x="10" y="349.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-44" value="return flag;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="349.43" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LELalIif-A3BBpKoqERd-45" value="}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="379.43" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
